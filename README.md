@@ -130,7 +130,7 @@ Users can **learn, analyze, and invest** in a single place, with curated **educa
 
 ---
 
-### **📈 The Vision**  
+## **📈 The Vision**  
 
 Crypto Trader is **not just another trading app**—it’s the next-gen **crypto investing platform** designed to onboard millions of users. With **real-time automation, AI-driven insights, and a frictionless fiat-crypto bridge**, we aim to **reshape the way people invest in digital assets**.  
 
