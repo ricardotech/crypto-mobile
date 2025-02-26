@@ -33,7 +33,7 @@ Users can **learn, analyze, and invest** in a single place, with curated **educa
 ✅ **Affiliate Rewards** – Earn **10% of all transaction fees** from referred users.  
 ✅ **On-Platform Education** – Crypto courses ranging from **beginner to pro-level**.  
 
-# Roadmap  
+## Roadmap  
 
 ## **🟢 Phase 1 - MVP Development (Core Trading & PIX Integration)**  
 **Goal:** Launch a functional **crypto trading app** with fiat on/off-ramp and basic investment tools.  
