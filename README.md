@@ -33,8 +33,105 @@ Users can **learn, analyze, and invest** in a single place, with curated **educa
 ✅ **Affiliate Rewards** – Earn **10% of all transaction fees** from referred users.  
 ✅ **On-Platform Education** – Crypto courses ranging from **beginner to pro-level**.  
 
-## **The Vision**  
+# 🚀 Crypto Trader Mobile App - Roadmap  
 
-Crypto Trader is built to **remove the barriers to crypto adoption** by making investing **simple, automated, and accessible**. Whether you’re a **beginner looking for easy entry points** or a **seasoned trader optimizing strategies**, our platform provides the tools to **trade smarter, not harder**.  
+## **🟢 Phase 1 - MVP Development (Core Trading & PIX Integration)**  
+**Goal:** Launch a functional **crypto trading app** with fiat on/off-ramp and basic investment tools.  
 
-With a focus on **scalability, security, and UX-first design**, we are building the next-gen **crypto infrastructure** for **mainstream adoption**.  
+### ✅ User Authentication & Security  
+- Implement **OAuth2 & Firebase Auth** for secure login.  
+- Enable **JWT-based** authentication with session management.  
+- Add **Two-Factor Authentication (2FA)** for high-value transactions.  
+
+### ✅ KYC & Identity Verification  
+- Integrate **OCR-based ID verification** (Brazil’s government ID API).  
+- Automate **liveness check & selfie match** to prevent fraud.  
+- Store encrypted KYC data on **AWS S3** with audit logs.  
+
+### ✅ PIX Integration for Deposits & Withdrawals  
+- Connect to **OpenPix API** for **instant BRL deposits**.  
+- Implement **withdrawals to bank accounts** with fee calculations.  
+- Add **fraud detection logic** for suspicious transactions.  
+
+### ✅ Core Trading Functionality  
+- Develop **instant swap engine** for BTC, ETH, SOL, and USDT.  
+- Implement **real-time exchange rate API** with rate limits.  
+- Integrate **transaction history** with P&L tracking.  
+
+### ✅ Market Data & Analytics  
+- Fetch **real-time token prices** via WebSockets.  
+- Display **top holders, whale transactions, and market cap**.  
+- Develop a **watchlist feature** for favorite assets.  
+
+---
+
+## **🟡 Phase 2 - Advanced Trading & Automation**  
+**Goal:** Introduce **AI-driven trading bots, advanced order types, and user analytics**.  
+
+### 🔄 Automated Trading Bots  
+- Implement **Stop Loss & Stop Win Bots** for risk management.  
+- Develop a **Sniper Bot** for detecting early-stage memecoins.  
+- Add **configurable bot parameters** for custom trading strategies.  
+
+### 🔍 Whale Trading Insights  
+- Enable **on-chain whale tracking** for large wallet movements.  
+- Implement **trade cloning**—allow users to mirror whale transactions.  
+- Develop **whale sentiment analysis** based on market behavior.  
+
+### 📊 Portfolio & Risk Management  
+- Introduce **pre-built investment portfolios** for different risk profiles.  
+- Add a **profit/loss calculator** for portfolio tracking.  
+- Implement **historical trade analytics & trend prediction**.  
+
+### ⚡ Performance Optimizations  
+- Optimize **WebSocket handling** for ultra-low-latency price updates.  
+- Implement **Hermes Engine** for React Native Android performance.  
+- Introduce **edge caching (Cloudflare)** for API request optimizations.  
+
+---
+
+## **🔵 Phase 3 - Monetization & Growth**  
+**Goal:** Expand revenue streams through **subscriptions, affiliate programs, and educational content**.  
+
+### 🎓 Education & Community  
+- Launch **crypto courses** inside the app (beginner to advanced).  
+- Implement **interactive quizzes & rewards** for engagement.  
+- Introduce **live trading webinars & expert insights**.  
+
+### 💰 Monetization Features  
+- Offer **premium subscriptions** for advanced analytics & trading bots.  
+- Implement **tiered commission structures** in the affiliate program.  
+- Develop an **in-app marketplace** for exclusive trading strategies.  
+
+### 🚀 Expansion & Scalability  
+- Scale **server infrastructure** for 100,000+ concurrent users.  
+- Optimize **multi-region hosting** for latency reduction.  
+- Implement **multi-language support** for international markets.  
+
+---
+
+## **🛠️ Future Innovations (R&D)**  
+**Goal:** Push boundaries with **decentralized finance (DeFi), AI-driven trading, and Web3 integration**.  
+
+### 🌍 Web3 & DeFi Expansion  
+- Enable **non-custodial wallet support** for DeFi trading.  
+- Implement **staking & yield farming options** directly in the app.  
+- Explore **layer-2 solutions** for lower transaction fees.  
+
+### 🤖 AI & Machine Learning  
+- Develop **AI-powered trade suggestions** based on user behavior.  
+- Implement **predictive analytics** for early bull/bear market detection.  
+- Create **automated risk scoring** to personalize investment advice.  
+
+### 🌐 Cross-Platform Expansion  
+- Launch **progressive web app (PWA)** for desktop users.  
+- Develop **SDK & API** for third-party integrations.  
+- Explore **AR/VR trading interfaces** for next-gen UX.  
+
+---
+
+## **📈 The Vision**  
+
+Crypto Trader is **not just another trading app**—it’s the next-gen **crypto investing platform** designed to onboard millions of users. With **real-time automation, AI-driven insights, and a frictionless fiat-crypto bridge**, we aim to **reshape the way people invest in digital assets**.  
+
+**🚀 The future of crypto trading starts here.**
