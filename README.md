@@ -37,9 +37,3 @@ Crypto Trader App é um app cross-platform (iOS/Android) para trading de criptom
 - [ ] Adição de WebSockets para preços em tempo real
 - [ ] Implementação do módulo de análise fundamentalista
 - [ ] Otimização de performance para Android (Hermes)
-
-## 📦 Setup Dev
-
-1. Clone o repositório:
-   ```sh
-   git clone git@github.com:cryptoapp/mobile.git && cd mobile
